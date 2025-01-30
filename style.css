@@ -1,0 +1,92 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(114, 105, 195);
+    color: #ffffff;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  .card {
+    background:#c39bd3;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+  
+  }
+  
+  
+
+  .button {
+    padding: 12px 12px;
+    border: none;
+    border-radius:200px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button.green {
+    background-color: #6fcf97;
+  }
+  
+  .button.green:hover {
+    background-color: #4caf7c;
+  }
+  
+  .button.red {
+    background-color: #eb5757;
+  }
+  
+  .button.red:hover {
+    background-color: #d43f3f;
+  }
+  
+
+  input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  input:focus {
+    border: 2px solid #6fcf97;
+    outline: none;
+  }
+
+  #balance {
+    font-size: 24px;
+    font-weight: bold;
+    color: #226e03;
+  }
+  
+  #historial {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transaction {
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 8px 0;
+    color: white;
+  }
+  
+  .transaction.ingreso {
+    background-color: #6fcf97;
+  }
+  
+  .transaction.gasto {
+    background-color: #eb5757;
+  }
+  
