@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Ingresos y Gastos</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <h1>Calculadora de Presupuesto Personal</h1>
+
+  <div class="card">
+    <h2>Nueva Transacción</h2>
+    <input id="monto" type="number" placeholder="Monto">
+    <input id="descripcion" type="text" placeholder="Descripción">
+    <button id="btnIngreso" class="button green">Agregar Ingreso</button>
+    <button id="btnGasto" class="button red">Agregar Gasto</button>
+ 
+    <h2>Balance Total: <span id="balance">$ 0</span></h2>
+  </div>
+
+  <div class="card">
+    <h2>Historial de Transacciones</h2>
+    <ul id="historial"></ul>
+  </div>
+  <h1>Ruth Barrientos Angeles 5C</h1>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
+
